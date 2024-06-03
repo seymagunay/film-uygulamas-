@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #363d6b;
+    font-family: "Poppins";
+}
+.header{
+    display: flex;
+    flex-direction: row; /* colum olsaydı alig-itimes ile sol tarafa atardım atardım*/
+    justify-content: flex-end;
+}
+#searchInput{
+    padding: 5px;
+    border-radius: 50px;
+    background-color: transparent;
+    outline: none;
+    margin-top: 15px;
+    margin-right: 25px;
+    color: #fff;
+}
+#searchInput::placeholder{
+    color: lightgrey;
+    font-size: 13px;
+    text-align: center;
+}
+.movies{
+    display: flex;
+    flex-direction: row; /* yan yana getirdi*/
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* satır dolduğunda aşağıya geç*/
+    margin-top: 15px;
+}
+.movie{
+    margin: 10px;
+    width: 260px;
+    height: 405px;
+    background-color: #53597f;
+}
+
+#moviePicture{
+width: 260px;
+height: 320px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.movieName{
+    font-size: 13px;
+    color: lightgray;
+    margin-right: 10px;
+}
+
+.imbPoint{
+    font-size: 15px;
+    color: lightgrey;
+    background-color: black;
+    padding: 3px;
+}
+
+.green{
+    background-color: rgb(22, 112, 22);
+    color: #fff;
+}
+
+.yellow{
+    background-color:  rgb(223, 216, 21);
+    color: black;
+}
+
+
+.red{
+    background-color: red;
+    color: #fff;
+}
